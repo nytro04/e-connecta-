@@ -1,0 +1,74 @@
+.logo {
+  height: 3.25rem;
+}
+
+a {
+  color: #fff !important;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__social-media {
+    color: #922a76 !important;
+    cursor: pointer;
+
+    &--facebook:hover {
+      color: #3b5998;
+    }
+    &--twitter:hover {
+      color: #00acee;
+    }
+    &--instagram:hover {
+      color: #922a76;
+    }
+  }
+}
+
+.header {
+  min-height: 100vh;
+  //   background-image: url(../assets/e-connecta.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../assets/e-connecta.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+
+  color: #fff;
+  h1 {
+    width: 60%;
+    padding-top: 10rem;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-weight: 300;
+    border-bottom: 2px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+}
+
+.fa-3x {
+  font-size: 2em !important;
+}
+
+.contact {
+  background-color: #000;
+}
+.footer {
+  background-color: #000;
+  border-top: 1px solid #f7f7f7;
+  padding-top: 1rem;
+}
