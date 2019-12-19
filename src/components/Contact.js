@@ -17,8 +17,8 @@ export const Contact = () => {
 
               <div className="col-md-4">
                 <i class="fas fa-phone mb-3"></i>
-                <p>+233 30 2916 6047</p>
-                <p>+233 30 2916 6044</p>
+                <p>+233 30 291 6047</p>
+                <p>+233 30 291 6044</p>
               </div>
               <div className="col-md-4">
                 <i class="fas fa-map-marker-alt mb-3"></i>
