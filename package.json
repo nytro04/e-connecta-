@@ -1,5 +1,6 @@
 {
   "name": "e-connecta",
+  "homepage": "http://ads.e-connecta.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
